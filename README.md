@@ -3,7 +3,7 @@ In the build folder create file settings.yaml if one is not already there.
 Via the setting You can change next properties of the scene and renderer:
 DO NOT USE inline vector notations (like, lightColor: [1.0, 1.0, 1.0]) in yaml.
 Those are not supported by tiny-yaml used in this project. Paths are given relative.
-
+The box images must be similar by resolution and probably depth!
 ``` yaml
 modelPath: data/suzanne.stl
 
